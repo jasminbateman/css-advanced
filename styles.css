@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: monospace;
+}
+main {
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+}
+nav {
+  height: 100px;
+  width: 100%;
+  background-color: bisque;
+  display: flex;
+}
+.nav-container {
+  justify-content: space-around;
+  align-items: center;
+}
+.about-me {
+  padding: 40px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin: -10px;
+}
+.summary {
+  flex-wrap: wrap;
+  width: 300px;
+  height: 400px;
+  margin: 8px;
+}
+.list {
+  width: 100px;
+  flex-wrap: wrap;
+}
+
+.contact-form {
+  display: flex;
+  height: 100px;
+  width: 200px;
+}
+label {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  font-size: 15px;
+}
+a {
+  font-size: 30px;
+}
+
+.nav-item:hover {
+  background-color: azure;
+  color: red;
+}
+.nav-item:visited {
+  color: deeppink;
+}
+.nav-item:active {
+  background-color: tomato;
+}
+
+li {
+  font-size: 40px;
+}
+p {
+  font-size: 20px;
+}
+
+.fancy::before {
+  content: "Here is a fancy paragraph";
+  font-family: fantasy;
+  border: 1px dotted red;
+  font-size: xx-large;
+}
+
+.boring::after {
+  content: "Here is some boring text";
+  background-color: lightgoldenrodyellow;
+}
+
+p::selection {
+  background-color: purple;
+}
+
+/* .summary::selection {
+  background-color: purple;
+} */
+
+/* .summary::first-line {
+  color: aqua;
+} */
+
+/* input[name="myCheckbox"]:checked {
+  outline: red solid 5px;
+  height: 13px;
+  align-self: center;
+} */
+
+/* a[href$=".com"] {
+  color: lightcoral;
+} */
+
+/* div[class*="summary"] {
+  border-color: red;
+  border-style: dotted;
+} */
+
+/* .nav-container a {
+    color: red;
+} */
+
+/* #home-link ~ a {
+    color: green;
+}
+
+input[name="myCheckbox"] {
+    outline: green solid 5px;
+    height: 13px;
+    align-self: center;
+}
+
+input[name="myCheckbox"]:checked {
+    outline: red solid 5px;
+    height: 13px;
+    align-self: center;
+}
+
+.nav-item:nth-child(3) {
+    background-color: aqua;
+} */
+
+/* p::selection {
+    background-color: purple
+} */
+
+/* @media screen and (min-width: 900px) {
+
+    * {
+        background-color: blue;
+    }
+} */
